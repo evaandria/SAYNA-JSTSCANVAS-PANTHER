@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'Panthera';
+    src: url('../../css/font/Panthera/PantheraRegular-MVZ9J.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Beyno';
+    src: url('../../css/font/beyno/BEYNO/BEYNO.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Wakanda forever';
+    src: url('../../css/font/wakanda_forever/WakandaForever-Regular.ttf') format('truetype');
+}
+
+/*style généraux*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+    color: white;
+    font-family: 'cantarell';
+    font-size: 16px;
+    font-weight: 400;
+}
+/*animation en css*/
+.lien a:hover {
+    text-decoration: underline;
+}
+.lien a:active {
+    color: violet;
+}
+nav img:hover {
+    background-color: violet;
+}
+.footer2 img:hover {
+    zoom: 10%;
+}
+.reseaux a img:hover {
+    zoom: 10%;
+}
+.lien-footer a:hover {
+    text-decoration: underline;
+}
+
+/*design de la navigation*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav .lien ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+}
+.lien ul a {
+    color: white;
+    font-family: 'Beyno';
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+/*design du corps*/
+main #header {
+    background-image: url(../../Illustration/Logos/Wakanda/Pantherwakanda1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-texte h1 {
+    font-family: 'Beyno';
+    font-size: 60px;
+    font-weight: 400;
+}
+.header-texte h2 {
+    font-family: 'wakanda forever';
+    font-size: 43px;
+    font-weight: 300;
+}
+.header-texte p {
+    text-align: justify;
+    width: 60%;
+    font-size: 15px;
+    padding-top: 20px;
+}
+#header .header-texte {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    width: 60%;
+    padding-top: 300px;
+}
+#colonne {
+    column-count: 2;
+    column-width: 50%;
+    text-align: justify;
+}
+#colonne {
+    background-image: url(../../Illustration/Logos/Wakanda/Pantherwakanda2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#colonne h2 {
+    font-family: 'Beyno';
+    color: #9e91b7;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+#colonne p {
+    padding: 10px 0;
+}
+#colonne .video {
+    background-color: #3d2da6;
+    padding: 30px;
+    padding-bottom: 70px;
+    margin: 30px 0;
+}
+.video a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+#colonne img {
+    position: center;
+    margin-top: 40px;
+    width: 500px;
+}
+/*design du footer*/
+footer {
+    background: linear-gradient(180deg, #3d2da6 0%, #021740 90.43%);
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#pages-footer {
+    display: flex;
+    justify-content: center;
+}
+#pages-footer .display-int {
+    display: flex;
+    flex-direction: column;
+}
+#pages-footer .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.lien-footer , .reseaux {
+    margin-top: 50px;
+    margin-right: 70px;
+    padding: 20px;
+}
+.flex p {
+    font-size: 22px;
+    letter-spacing: 28%;
+    padding: 20px 0;
+}
+.lien-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.reseaux img {
+    padding: 0 10px;
+}
+.font ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.font a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.font li {
+    list-style: disc;
+}
+.font .special {
+    list-style: none;
+}
+.footer2 img {
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-right: 100px;
+}
+.footer2 {
+    background-image: url('../../Illustration/Logos/All pages/footer1.png');
+    background-repeat: no-repeat;
+    margin-left: 200px;
+}
+

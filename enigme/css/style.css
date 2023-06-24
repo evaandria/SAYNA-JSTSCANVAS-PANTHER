@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'Panthera';
+    src: url('../../css/font/Panthera/PantheraRegular-MVZ9J.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Beyno';
+    src: url('../../css/font/beyno/BEYNO/BEYNO.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Wakanda forever';
+    src: url('../../css/font/wakanda_forever/WakandaForever-Regular.ttf') format('truetype');
+}
+
+/*style généraux*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+    color: white;
+    font-family: 'cantarell';
+    font-size: 16px;
+    font-weight: 400;
+}
+/*animation en css*/
+.lien a:hover {
+    text-decoration: underline;
+}
+.lien a:active {
+    color: violet;
+}
+nav img:hover {
+    background-color: violet;
+}
+.footer2 img:hover {
+    zoom: 10%;
+}
+.reseaux a img:hover {
+    zoom: 10%;
+}
+.lien-footer a:hover {
+    text-decoration: underline;
+}
+
+/*design de la navigation*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav .lien ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+}
+.lien ul a {
+    color: white;
+    font-family: 'Beyno';
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+/*design en tete*/
+.header img {
+    width: 900px;
+    margin-top: -100px;
+}
+.texte h1 {
+    font-family: 'Beyno';
+    font-size: 60px;
+    font-weight: 300;
+}
+.texte {
+    float: right;
+    margin-right: 15px;
+    width: 50%;
+    margin-top: -500px;
+}
+.content {
+    background-image: url('../../Illustration/Logos/Enigme/Pantherenigme2.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 400px;
+    font-size: 13px;
+    margin-top: -20px;
+}
+.content p {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 50px;
+    padding-top: 145px;
+    padding-left: 70px;
+    width: 75%;
+}
+/*style du corps*/
+.texte-wakanda {
+    font-family: 'Wakanda forever';
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 60%;
+    margin: 100px;
+    width: 60%;
+}
+.bet {
+    display: flex;
+    justify-content: center; 
+    margin-right: 750px;
+    padding-top: 10px;
+}
+.bet .texte-wakanda2 {
+    font-family: 'Wakanda forever';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 30%;
+}
+.alphabet .simple {
+    margin-left: 100px;
+}
+#box2 {
+    margin-top: 300px;
+    padding-right: 60px;
+}
+#box2 p {
+    text-align: center;
+}
+.formulaire {
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+textarea {
+    background-color: transparent;
+    border-radius: 38px;
+    border: 1px solid #9e91b7;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+input {
+    width: 147px;
+    height: 54px;
+    border-radius: 38px;
+    color: #07338c;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+/*design du footer*/
+footer {
+    background: linear-gradient(180deg, #3d2da6 0%, #021740 90.43%);
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#pages-footer {
+    display: flex;
+    justify-content: center;
+}
+#pages-footer .display-int {
+    display: flex;
+    flex-direction: column;
+}
+#pages-footer .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.lien-footer , .reseaux {
+    margin-top: 50px;
+    margin-right: 70px;
+    padding: 20px;
+}
+.flex p {
+    font-size: 22px;
+    letter-spacing: 28%;
+    padding: 20px 0;
+}
+.lien-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.reseaux img {
+    padding: 0 10px;
+}
+.font ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.font a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.font li {
+    list-style: disc;
+}
+.font .special {
+    list-style: none;
+}
+.footer2 img {
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-right: 100px;
+}
+.footer2 {
+    background-image: url('../../Illustration/Logos/All pages/footer1.png');
+    background-repeat: no-repeat;
+    margin-left: 200px;
+}
