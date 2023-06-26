@@ -106,19 +106,42 @@ ul {
     width: 75%;
 }
 /*style du corps*/
+#corps {
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 100px;
+    padding: 20px;
+    width: 50%;
+}
+
+span {
+    text-decoration: underline;
+    font-size: 30px;
+}
+.titre-eni {
+    font-family: 'Beyno';
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.titre p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .texte-wakanda {
     font-family: 'Wakanda forever';
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: 60%;
-    margin: 100px;
-    width: 60%;
+    padding-top: 20px;
 }
-.bet {
+.bet ,.simple {
     display: flex;
     justify-content: center; 
-    margin-right: 750px;
     padding-top: 10px;
+    font-size: 14px;
+}
+.simple {
+    padding-top: 80px;
 }
 .bet .texte-wakanda2 {
     font-family: 'Wakanda forever';
@@ -126,20 +149,29 @@ ul {
     font-weight: 300;
     letter-spacing: 30%;
 }
-.alphabet .simple {
+/*.alphabet .simple {
     margin-left: 100px;
+}*/
+.alpha {
+    background-image: url('../../Illustration/Logos/Enigme/Pantherenigme2.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 400px;
+    margin-left: 750px;
+    width: 600px;
+    position: absolute;
+    margin-top: -150px;
 }
-#box2 {
-    margin-top: 300px;
-    padding-right: 60px;
-}
-#box2 p {
-    text-align: center;
+.page2 ,.page3 {
+    display: none;
 }
 .formulaire {
     margin-left: 100px;
-    margin-top: -100px;
+    margin-top: 70px;
     margin-bottom: 100px;
+}
+.formulaire p {
+    margin-bottom: 20px;
 }
 textarea {
     background-color: transparent;
